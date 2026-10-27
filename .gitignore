@@ -1,0 +1,59 @@
+# ─────────────────────────────────────────
+#  SimulaManejo — .gitignore
+#  Proyecto web frontend estático
+# ─────────────────────────────────────────
+
+# ── macOS ─────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ── Windows ───────────────────────────────
+desktop.ini
+$RECYCLE.BIN/
+
+# ── Linux ─────────────────────────────────
+*~
+
+# ── Editores / IDEs ───────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-project
+*.sublime-workspace
+
+# ── Logs ──────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Dependencias (por si se agregan tools) ─
+node_modules/
+.npm/
+
+# ── Builds / output ───────────────────────
+dist/
+build/
+.cache/
+
+# ── Variables de entorno ──────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Archivos temporales ───────────────────
+*.tmp
+*.bak
+*.orig
+
+# ── PDFs de referencia (documentos fuente) ─
+Morelos/

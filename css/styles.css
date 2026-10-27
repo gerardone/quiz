@@ -1,0 +1,217 @@
+/* ===================================================
+   Exam Simulator – Auxiliary Styles
+   (Tailwind CDN handles utilities; this file handles
+    custom animations, transitions and quiz-specific
+    states that Tailwind cannot express inline.)
+   =================================================== */
+
+/* ---------- Google Fonts ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* ---------- CSS Custom Properties ---------- */
+:root {
+  --correct:   #16a34a;
+  --incorrect: #dc2626;
+  --accent:    #3b82f6;
+  --card-bg:   #ffffff;
+  --body-bg:   #f1f5f9;
+  --text-main: #1e293b;
+  --text-muted:#64748b;
+  --radius:    1rem;
+  --shadow:    0 4px 24px rgba(0,0,0,.08);
+  --shadow-lg: 0 8px 40px rgba(0,0,0,.14);
+}
+
+/* ---------- Base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--body-bg);
+  color: var(--text-main);
+  min-height: 100vh;
+}
+
+/* ---------- Hero gradient header ---------- */
+.hero-gradient {
+  background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 60%, #3b82f6 100%);
+}
+
+/* ---------- Quiz-card hover ---------- */
+.quiz-card {
+  transition: transform .25s ease, box-shadow .25s ease;
+  border-radius: var(--radius);
+  background: var(--card-bg);
+  box-shadow: var(--shadow);
+}
+.quiz-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* ---------- Option buttons ---------- */
+.option-btn {
+  transition: background-color .15s ease, border-color .15s ease, transform .1s ease;
+  border: 2px solid #e2e8f0;
+  border-radius: .75rem;
+  background: #fff;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  padding: .9rem 1.1rem;
+  font-size: .95rem;
+  line-height: 1.4;
+  color: var(--text-main);
+}
+.option-btn:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: #eff6ff;
+  transform: translateX(4px);
+}
+.option-btn:disabled { cursor: not-allowed; }
+
+/* Correct answer */
+.option-btn.correct {
+  border-color: var(--correct);
+  background: #f0fdf4;
+  color: var(--correct);
+  font-weight: 600;
+}
+.option-btn.correct .option-label {
+  background: var(--correct);
+  color: #fff;
+}
+
+/* Incorrect answer */
+.option-btn.incorrect {
+  border-color: var(--incorrect);
+  background: #fef2f2;
+  color: var(--incorrect);
+  font-weight: 600;
+}
+.option-btn.incorrect .option-label {
+  background: var(--incorrect);
+  color: #fff;
+}
+
+/* The letter badge (A / B / C / D) */
+.option-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: .5rem;
+  background: #e2e8f0;
+  font-weight: 700;
+  font-size: .85rem;
+  flex-shrink: 0;
+  margin-right: .75rem;
+  transition: background .15s ease, color .15s ease;
+}
+
+/* ---------- Progress bar ---------- */
+.progress-bar-track {
+  background: #e2e8f0;
+  border-radius: 9999px;
+  height: 10px;
+  overflow: hidden;
+}
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6, #6366f1);
+  border-radius: 9999px;
+  transition: width .4s cubic-bezier(.4,0,.2,1);
+}
+
+/* ---------- Explanation card ---------- */
+.explanation-card {
+  border-left: 4px solid var(--accent);
+  background: #eff6ff;
+  border-radius: 0 .75rem .75rem 0;
+  animation: fadeSlideDown .3s ease;
+}
+.explanation-card.correct-expl {
+  border-left-color: var(--correct);
+  background: #f0fdf4;
+}
+.explanation-card.incorrect-expl {
+  border-left-color: var(--incorrect);
+  background: #fef2f2;
+}
+
+/* ---------- Results doughnut ring ---------- */
+.score-ring {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.score-ring::before {
+  content: '';
+  position: absolute;
+  inset: 8px;
+  border-radius: 50%;
+  background: #fff;
+  z-index: 1;
+}
+.score-ring-text {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+/* ---------- Badge: Passed / Failed ---------- */
+.badge-pass {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .35rem .9rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  font-size: .85rem;
+}
+.badge-pass.pass  { background:#dcfce7; color:#15803d; }
+.badge-pass.fail  { background:#fee2e2; color:#b91c1c; }
+
+/* ---------- Missed-question row ---------- */
+.missed-row {
+  border-left: 4px solid var(--incorrect);
+  background: #fef2f2;
+  border-radius: 0 .75rem .75rem 0;
+  padding: .85rem 1rem;
+  font-size: .9rem;
+}
+
+/* ---------- Animations ---------- */
+@keyframes fadeSlideDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes popIn {
+  0%   { opacity: 0; transform: scale(.92); }
+  80%  { transform: scale(1.02); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.anim-fade   { animation: fadeIn      .4s ease; }
+.anim-pop    { animation: popIn       .35s ease; }
+.anim-slide  { animation: fadeSlideDown .3s ease; }
+
+/* ---------- Responsive tweaks ---------- */
+@media (max-width: 640px) {
+  .option-btn { font-size: .88rem; padding: .8rem .9rem; }
+  .option-label { width: 1.7rem; height: 1.7rem; font-size: .78rem; }
+}

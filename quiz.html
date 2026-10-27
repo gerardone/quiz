@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Simulador interactivo de examen teórico de conducir." />
+  <title>SimulaManejo · Simulador de Examen</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-slate-100 min-h-screen flex flex-col">
+
+  <!-- ══════════════════════════════════════
+       TOPBAR
+  ═══════════════════════════════════════ -->
+  <header class="hero-gradient text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-3xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
+        <i class="fas fa-arrow-left text-sm"></i>
+        <span class="font-semibold text-sm">Catálogo</span>
+      </a>
+      <div class="flex items-center gap-2">
+        <i class="fas fa-road text-blue-200"></i>
+        <span class="font-extrabold text-sm">SimulaManejo</span>
+      </div>
+      <div class="w-20 text-right text-xs text-blue-200" id="progress-label">
+        Pregunta 1 de 20
+      </div>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════
+       PROGRESS BAR (below header)
+  ═══════════════════════════════════════ -->
+  <div class="hero-gradient pb-3 px-4">
+    <div class="max-w-3xl mx-auto">
+      <div class="flex items-center justify-between text-white/80 text-xs mb-1.5">
+        <span>Progreso</span>
+        <span id="progress-pct">0%</span>
+      </div>
+      <div class="progress-bar-track">
+        <div class="progress-bar-fill" id="progress-fill" style="width:0%"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       SCREENS CONTAINER
+  ═══════════════════════════════════════ -->
+  <main class="flex-1 max-w-3xl mx-auto w-full px-4 py-8">
+
+    <!-- ──────────────────────────────────
+         SCREEN: LOADING
+    ─────────────────────────────────── -->
+    <div id="screen-loading" class="flex flex-col items-center justify-center min-h-[60vh] gap-4 text-slate-500">
+      <div class="w-16 h-16 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
+      <p class="font-medium">Cargando preguntas…</p>
+    </div>
+
+    <!-- ──────────────────────────────────
+         SCREEN: QUIZ
+    ─────────────────────────────────── -->
+    <div id="screen-quiz" class="hidden">
+
+      <!-- Question card -->
+      <div id="question-card" class="bg-white rounded-2xl shadow-md overflow-hidden mb-5">
+        <!-- Card header -->
+        <div class="hero-gradient px-6 py-4">
+          <p class="text-white/70 text-xs font-medium uppercase tracking-wide">
+            <i class="fas fa-question-circle mr-1"></i>Reactivo
+          </p>
+        </div>
+        <!-- Question text -->
+        <div class="px-6 pt-5 pb-3" id="question-text">
+          <!-- Injected by quiz.js -->
+        </div>
+      </div>
+
+      <!-- Options -->
+      <div id="options-container" class="flex flex-col gap-3 mb-5">
+        <!-- Injected by quiz.js -->
+      </div>
+
+      <!-- Explanation box (hidden until answered) -->
+      <div id="explanation-box" class="hidden mb-5 explanation-card p-4">
+        <!-- Injected by quiz.js -->
+      </div>
+
+      <!-- Next button -->
+      <div class="flex justify-end">
+        <button
+          id="btn-next"
+          class="hidden hero-gradient text-white font-bold py-3 px-7 rounded-xl
+                 hover:opacity-90 active:scale-95 transition-all duration-150
+                 flex items-center gap-2 shadow-md"
+          onclick="nextQuestion()">
+          <i class="fas fa-arrow-right mr-2"></i>Siguiente Pregunta
+        </button>
+      </div>
+    </div>
+
+    <!-- ──────────────────────────────────
+         SCREEN: RESULTS
+    ─────────────────────────────────── -->
+    <div id="screen-results" class="hidden anim-pop">
+
+      <!-- Score card -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden mb-6">
+        <!-- Header -->
+        <div class="hero-gradient px-6 py-5 text-white">
+          <p class="text-blue-200 text-sm font-medium mb-1">
+            <i class="fas fa-flag-checkered mr-1"></i>Examen finalizado
+          </p>
+          <h2 class="text-2xl font-extrabold">Tus Resultados</h2>
+        </div>
+
+        <!-- Body -->
+        <div class="p-6">
+          <!-- Score ring + badge -->
+          <div class="flex flex-col sm:flex-row items-center gap-6 mb-6">
+            <!-- Ring -->
+            <div class="score-ring flex-shrink-0" id="score-ring">
+              <div class="score-ring-text">
+                <p class="text-2xl font-extrabold text-slate-800" id="score-number">—</p>
+                <p class="text-sm font-semibold text-slate-500" id="score-pct">—</p>
+              </div>
+            </div>
+
+            <!-- Text -->
+            <div>
+              <span id="result-badge" class="badge-pass mb-3"></span>
+              <p id="result-message" class="text-slate-600 text-sm leading-relaxed mt-2"></p>
+            </div>
+          </div>
+
+          <!-- Quick stats -->
+          <div class="grid grid-cols-3 gap-3 text-center mb-6">
+            <div class="bg-green-50 rounded-xl p-3">
+              <p class="text-2xl font-extrabold text-green-600" id="stat-correct">—</p>
+              <p class="text-xs text-slate-500 mt-0.5">Correctas</p>
+            </div>
+            <div class="bg-red-50 rounded-xl p-3">
+              <p class="text-2xl font-extrabold text-red-600" id="stat-incorrect">—</p>
+              <p class="text-xs text-slate-500 mt-0.5">Incorrectas</p>
+            </div>
+            <div class="bg-blue-50 rounded-xl p-3">
+              <p class="text-2xl font-extrabold text-blue-600" id="stat-pct">—</p>
+              <p class="text-xs text-slate-500 mt-0.5">Calificación</p>
+            </div>
+          </div>
+
+          <!-- Action buttons -->
+          <div class="flex flex-col sm:flex-row gap-3">
+            <button
+              onclick="startNewAttempt()"
+              class="flex-1 hero-gradient text-white font-bold py-3 px-5 rounded-xl
+                     hover:opacity-90 active:scale-95 transition-all duration-150
+                     flex items-center justify-center gap-2 shadow-md">
+              <i class="fas fa-rotate-right"></i>
+              Intentar de nuevo
+            </button>
+            <a href="index.html"
+               class="flex-1 border-2 border-slate-300 text-slate-700 font-bold py-3 px-5 rounded-xl
+                      hover:bg-slate-50 active:scale-95 transition-all duration-150
+                      flex items-center justify-center gap-2">
+              <i class="fas fa-th-large"></i>
+              Volver al Catálogo
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Missed questions breakdown -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+        <div class="px-6 py-4 border-b border-slate-100 flex items-center gap-2">
+          <i class="fas fa-magnifying-glass text-red-500"></i>
+          <h3 class="font-bold text-slate-800">Preguntas Falladas</h3>
+          <span class="ml-auto text-xs text-slate-400">Para estudio y revisión</span>
+        </div>
+        <div id="missed-list" class="p-5 flex flex-col gap-4">
+          <!-- Injected by quiz.js -->
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ──────────────────────────────────
+         SCREEN: ERROR
+    ─────────────────────────────────── -->
+    <div id="screen-error" class="hidden flex flex-col items-center justify-center min-h-[60vh] gap-2 text-center">
+      <div id="error-message" class="flex flex-col items-center text-slate-600 gap-2"></div>
+      <a href="index.html"
+         class="mt-4 inline-flex items-center gap-2 hero-gradient text-white font-semibold
+                py-2.5 px-6 rounded-xl hover:opacity-90 transition-opacity shadow">
+        <i class="fas fa-home"></i> Ir al inicio
+      </a>
+    </div>
+
+  </main>
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer class="bg-slate-800 text-slate-500 py-4 text-xs text-center">
+    <div class="max-w-3xl mx-auto px-4">
+      <span class="font-semibold text-slate-400">SimulaManejo</span> ·
+      Plataforma educativa de práctica libre · No sustituye el proceso oficial de licenciamiento.
+    </div>
+  </footer>
+
+  <!-- Quiz engine -->
+  <script src="./js/quiz.js"></script>
+</body>
+</html>

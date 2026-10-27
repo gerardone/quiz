@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "categoria": "Velocidades",
+    "pregunta": "¿Cuál es la velocidad máxima de circulación en zonas de alta vulnerabilidad (entornos escolares, hospitales, asilos, albergues y casas hogar) en Morelos?",
+    "opciones": [
+      "10 km/h",
+      "20 km/h",
+      "30 km/h",
+      "40 km/h"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 127, fracción I de la Ley de Movilidad del Estado de Morelos fija un límite máximo de 20 km/h en zonas de alta vulnerabilidad."
+  },
+  {
+    "id": 2,
+    "categoria": "Velocidades",
+    "pregunta": "Según la Ley de Movilidad del Estado de Morelos, ¿cuál es el límite de velocidad en calles secundarias y terciarias dentro de áreas urbanas?",
+    "opciones": [
+      "20 km/h",
+      "30 km/h",
+      "40 km/h",
+      "50 km/h"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 127, fracción II de la Ley establece 30 km/h en calles secundarias y terciarias en áreas urbanas."
+  },
+  {
+    "id": 3,
+    "categoria": "Velocidades",
+    "pregunta": "¿A qué velocidad máxima se puede circular en avenidas primarias sin acceso controlado en Morelos?",
+    "opciones": [
+      "40 km/h",
+      "50 km/h",
+      "60 km/h",
+      "70 km/h"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 127, fracción III de la Ley de Movilidad señala 50 km/h para avenidas primarias sin acceso controlado."
+  },
+  {
+    "id": 4,
+    "categoria": "Velocidades",
+    "pregunta": "¿Cuál es la velocidad máxima permitida en carriles centrales de vías de acceso controlado y tramos de carreteras estatales que atraviesen zonas urbanas?",
+    "opciones": [
+      "60 km/h",
+      "70 km/h",
+      "80 km/h",
+      "90 km/h"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 127, fracción IV de la Ley de Movilidad determina 80 km/h en carriles centrales de vías de acceso controlado y carreteras estatales en zonas urbanas."
+  },
+  {
+    "id": 5,
+    "categoria": "Velocidades",
+    "pregunta": "¿Qué límite de velocidad rige en carreteras estatales fuera de zonas urbanas en Morelos?",
+    "opciones": [
+      "70 km/h",
+      "80 km/h",
+      "90 km/h",
+      "100 km/h"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 127, fracción V de la Ley de Movilidad fija 80 km/h en carreteras estatales fuera de zonas urbanas."
+  },
+  {
+    "id": 6,
+    "categoria": "Velocidades",
+    "pregunta": "De acuerdo con la Ley, ¿cuál es la velocidad máxima de operación en cualquiera de los accesos a una intersección vial?",
+    "opciones": [
+      "30 km/h",
+      "40 km/h",
+      "50 km/h",
+      "60 km/h"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "Los Artículos 127 fracción VI y 129 de la Ley establecen que ninguna intersección podrá tener una velocidad de operación mayor a 50 km/h en sus accesos."
+  },
+  {
+    "id": 7,
+    "categoria": "Alcoholimetría",
+    "pregunta": "¿Cuál es el límite máximo permitido de concentración de alcohol en sangre para conductores de vehículos automotores particulares en Morelos?",
+    "opciones": [
+      "0.8 gramos por litro (g/L)",
+      "0.5 gramos por litro (g/L)",
+      "0.3 gramos por litro (g/L)",
+      "0.0 gramos por litro (cero tolerancia)"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 130, fracción I de la Ley de Movilidad estipula que la concentración en sangre no deberá ser igual o superior a 0.5 g/L (o 0.25 mg/L en aire espirado)."
+  },
+  {
+    "id": 8,
+    "categoria": "Alcoholimetría",
+    "pregunta": "¿Cuál es el límite de alcohol en aire espirado para conductores de motocicletas en el Estado de Morelos?",
+    "opciones": [
+      "0.25 mg/L",
+      "0.10 mg/L",
+      "0.05 mg/L",
+      "Cero absoluto"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 130, fracción II de la Ley de Movilidad indica para motociclistas un límite inferior a 0.2 g/dL en sangre o 0.1 mg/L en aire espirado."
+  },
+  {
+    "id": 9,
+    "categoria": "Alcoholimetría",
+    "pregunta": "¿Qué límite de alcoholemia aplica para conductores de transporte público, escolar, de carga o de emergencia?",
+    "opciones": [
+      "0.25 mg/L en aire espirado",
+      "0.10 mg/L en aire espirado",
+      "Política de cero tolerancia (0.0)",
+      "Hasta 0.4 g/L en sangre"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 130, fracción III de la Ley de Movilidad establece tolerancia cero para conductores de transporte público, escolar, carga o emergencias."
+  },
+  {
+    "id": 10,
+    "categoria": "Sanciones",
+    "pregunta": "¿Cuál es la sanción administrativa ante la reincidencia en la conducción bajo los efectos del alcohol en Morelos?",
+    "opciones": [
+      "Multa doble únicamente",
+      "Suspensión por 1 año de la licencia",
+      "Cancelación definitiva de la licencia de conducir",
+      "Arresto inconmutable de 72 horas"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "Los Artículos 157 y 198 de la Ley de Movilidad disponen que la reincidencia en la conducción bajo efectos del alcohol causa la cancelación definitiva de la licencia."
+  },
+  {
+    "id": 11,
+    "categoria": "Seguridad Vial",
+    "pregunta": "Según la Ley de Movilidad, ¿qué personas tienen la obligación de utilizar el cinturón de seguridad en un vehículo motorizado?",
+    "opciones": [
+      "Únicamente el conductor",
+      "El conductor y el copiloto",
+      "Todas las personas que viajen en el vehículo en todas las plazas",
+      "Solo los ocupantes mayores de edad"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 133 de la Ley de Movilidad hace obligatorio el uso del cinturón de seguridad para todas las personas en todas las plazas del vehículo."
+  },
+  {
+    "id": 12,
+    "categoria": "Seguridad Infantil",
+    "pregunta": "¿A partir de qué edad y estatura un menor está obligado a viajar en el asiento trasero en un sistema de retención infantil?",
+    "opciones": [
+      "Menores de 8 años o estatura menor a 1.20 metros",
+      "Menores de 10 años o estatura menor a 1.30 metros",
+      "Menores de 12 años o estatura inferior a 1.35 metros",
+      "Cualquier niño que pese menos de 40 kg"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 134 de la Ley de Movilidad obliga a que todo menor de doce años o con estatura inferior a 1.35 m viaje en asiento trasero con sistema de retención certificado."
+  },
+  {
+    "id": 13,
+    "categoria": "Jerarquía de la Movilidad",
+    "pregunta": "¿Quién ocupa el primer lugar de prioridad en el uso y disposición de las vías públicas en Morelos?",
+    "opciones": [
+      "Transporte público de pasajeros",
+      "Vehículos de emergencia",
+      "Personas peatonas",
+      "Ciclistas"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 28, fracción I de la Ley de Movilidad coloca en la cúspide de la jerarquía a las personas peatonas con enfoque diferenciado."
+  },
+  {
+    "id": 14,
+    "categoria": "Jerarquía de la Movilidad",
+    "pregunta": "¿Cuál es el orden de prelación correcto de la Jerarquía de la Movilidad establecida en la Ley?",
+    "opciones": [
+      "Peatones, ciclistas, transporte público, transporte de carga/plataformas y vehículos particulares",
+      "Vehículos particulares, transporte público, ciclistas y peatones",
+      "Peatones, transporte público, ciclistas, vehículos particulares y carga",
+      "Vehículos de emergencia, transporte público, peatones y ciclistas"
+    ],
+    "respuesta_correcta": 0,
+    "explicacion": "El Artículo 28 de la Ley define: 1) Peatones, 2) Ciclistas/micromovilidad, 3) Transporte público, 4) Transporte de bienes/plataformas y 5) Particulares."
+  },
+  {
+    "id": 15,
+    "categoria": "Reglas de Paso",
+    "pregunta": "¿Qué condición deben cumplir los vehículos de emergencia para tener prioridad absoluta de paso sobre las demás personas usuarias?",
+    "opciones": [
+      "Circular en convoy de más de dos unidades",
+      "Circular con las señales luminosas y audibles en funcionamiento simultáneo",
+      "Llevar las luces intermitentes encendidas",
+      "Haber emitido un aviso por radio a tránsito"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 29 de la Ley y el Artículo 71 del Reglamento precisan que deben transitar con sirena y torreta luminosa encendidas."
+  },
+  {
+    "id": 16,
+    "categoria": "Reglas de Circulación",
+    "pregunta": "Al circular en una glorieta sin semáforos ni agentes viales, ¿quién tiene preferencia de paso?",
+    "opciones": [
+      "El vehículo que pretende entrar a la glorieta",
+      "Los vehículos que ya se encuentran circulando dentro de ella",
+      "El vehículo de mayores dimensiones",
+      "El vehículo que circule por la extrema derecha"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 80 del Reglamento de Tránsito estipula que quienes entren a la glorieta deberán ceder el paso a los vehículos que ya circulan en ella."
+  },
+  {
+    "id": 17,
+    "categoria": "Reglas de Circulación",
+    "pregunta": "En una intersección de dos calles equivalentes sin señalamientos ni agentes, ¿qué vehículo tiene la preferencia de paso?",
+    "opciones": [
+      "El que circule a mayor velocidad",
+      "El vehículo que proceda del lado derecho",
+      "El vehículo que proceda del lado izquierdo",
+      "El que toque la bocina primero"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 73, fracción III del Reglamento de Tránsito establece que deberán alternarse el paso iniciando aquel que proceda del lado derecho."
+  },
+  {
+    "id": 18,
+    "categoria": "Reglas de Circulación",
+    "pregunta": "Entre dos calles que confluyen en un crucero sin semáforos, ¿cuál tiene preferencia si una está pavimentada y la otra no?",
+    "opciones": [
+      "La calle sin pavimentar para evitar derrapes",
+      "La calle asfaltada tiene preferencia sobre la no asfaltada",
+      "Tienen igual preferencia y pasa el más pesado",
+      "Pasa el que llegue primero sin importar el pavimento"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 75 del Reglamento de Tránsito indica que las calles asfaltadas tendrán preferencia sobre las que no lo estén."
+  },
+  {
+    "id": 19,
+    "categoria": "Reglas de Circulación",
+    "pregunta": "¿Qué regla aplica cuando un vehículo pretende dar vuelta a la izquierda en una vía de doble sentido de circulación?",
+    "opciones": [
+      "Tiene preferencia porque inicia el giro primero",
+      "Está obligado a ceder el paso a los vehículos que circulen de frente",
+      "Debe acelerar antes de que llegue el tráfico frontal",
+      "Debe orillarse a la banqueta derecha y esperar que pasen todos los autos"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 83 del Reglamento de Tránsito ordena que quien dé vuelta a la izquierda en doble sentido ceda el paso a los que circulan de frente."
+  },
+  {
+    "id": 20,
+    "categoria": "Señalamientos",
+    "pregunta": "¿Cuál es el color y forma característicos de las señales de tránsito PREVENTIVAS?",
+    "opciones": [
+      "Circulares con orla roja y fondo blanco",
+      "Romboidales con fondo amarillo y figuras/caracteres negros",
+      "Rectangulares con fondo azul y textos blancos",
+      "Octagonales con fondo rojo"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 135, fracción I del Reglamento de Tránsito establece que las señales preventivas tienen fondo amarillo con caracteres negros."
+  },
+  {
+    "id": 21,
+    "categoria": "Señalamientos",
+    "pregunta": "¿Qué significado tienen las señales de tránsito RESTRICTIVAS y qué colores presentan habitualmente?",
+    "opciones": [
+      "Alertar sobre obras; color naranja",
+      "Indicar limitaciones o prohibiciones legales; fondo blanco con caracteres rojo y negro",
+      "Guiar rutas de viaje; fondo verde",
+      "Identificar paraderos de taxi; fondo azul"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 135, fracción II del Reglamento indica que son limitaciones o prohibiciones con fondo blanco y caracteres rojo y negro (salvo el ALTO)."
+  },
+  {
+    "id": 22,
+    "categoria": "Marcas Viales",
+    "pregunta": "¿Qué indica sobre el pavimento una raya longitudinal continua sencilla?",
+    "opciones": [
+      "Zona de desaceleración",
+      "Prohibición estricta de cruzar, rebasar o cambiar de carril",
+      "Permiso para rebasar con precaución",
+      "Carril exclusivo para motociclistas"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 136, fracción I, inciso B) del Reglamento de Tránsito especifica que la raya continua sencilla prohíbe cruzar, rebasar o cambiar de carril."
+  },
+  {
+    "id": 23,
+    "categoria": "Marcas Viales",
+    "pregunta": "Cuando una vía tiene dos líneas longitudinales al centro, una continua y otra discontinua, ¿quién puede rebasar?",
+    "opciones": [
+      "Ambos sentidos si no hay autos cerca",
+      "Ninguno de los dos vehículos",
+      "Solo el conductor cuyo vehículo esté del lado de la línea discontinua",
+      "El conductor que circule del lado de la línea continua"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 136, fracción I, inciso D) del Reglamento explica que solo puede rebasar quien tenga la línea discontinua de su lado."
+  },
+  {
+    "id": 24,
+    "categoria": "Semáforos",
+    "pregunta": "¿Qué indica la luz ámbar (amarilla) fija en el semáforo?",
+    "opciones": [
+      "Acelerar para evitar quedarse varado en el cruce",
+      "Paso libre continuo",
+      "Advertencia de que está por aparecer la luz roja y se deben tomar precauciones para detenerse",
+      "Alto obligatorio solo para el transporte público"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 133, fracción II del Reglamento precisa que la luz ámbar advierte la proximidad de la roja y exige precauciones para hacer alto."
+  },
+  {
+    "id": 25,
+    "categoria": "Semáforos",
+    "pregunta": "¿Qué indica una luz roja intermitente en un semáforo vehicular?",
+    "opciones": [
+      "Falla del semáforo; avanzar a velocidad normal",
+      "Obligación de hacer alto total y continuar tras cerciorarse de que no hay peligro",
+      "Cruce exclusivo de bicicletas",
+      "Disminuir la velocidad sin frenar por completo"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 133, fracción V del Reglamento dispone que la luz roja intermitente indica hacer alto total y avanzar tras verificar que es seguro."
+  },
+  {
+    "id": 26,
+    "categoria": "Agentes Viales",
+    "pregunta": "En un crucero semaforizado con presencia de un agente de tránsito, ¿qué indicación tiene prevalencia?",
+    "opciones": [
+      "Las luces del semáforo siempre",
+      "Las señales que realice el agente de tránsito",
+      "La decisión voluntaria del conductor",
+      "La señal restrictiva fija en el poste"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "Los Artículos 57 fracción IV y 74 del Reglamento dictan que las indicaciones de los agentes prevalecen sobre semáforos y señales viales."
+  },
+  {
+    "id": 27,
+    "categoria": "Agentes Viales",
+    "pregunta": "¿Qué señal corporal hace un agente de tránsito para indicar 'ALTO GENERAL' a la circulación?",
+    "opciones": [
+      "Bajar los dos brazos pegados al torso",
+      "Mover las manos en círculo",
+      "Levantar el brazo derecho en forma vertical",
+      "Dar la espalda sin levantar los brazos"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 129, fracción V del Reglamento de Tránsito define que el agente levantará el brazo derecho verticalmente para indicar ALTO GENERAL."
+  },
+  {
+    "id": 28,
+    "categoria": "Agentes Viales",
+    "pregunta": "¿Cuántos toques cortos de silbato emitirá un agente de tránsito para indicar 'SIGA'?",
+    "opciones": [
+      "Un toque corto",
+      "Dos toques cortos",
+      "Un toque largo",
+      "Tres toques rápidos"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 130 del Reglamento de Tránsito establece: un toque corto para ALTO, dos toques cortos para SIGA y un toque largo para PREVENCIÓN."
+  },
+  {
+    "id": 29,
+    "categoria": "Distancia de Seguridad",
+    "pregunta": "De acuerdo con el Reglamento de Tránsito de Morelos, ¿cuál es la distancia mínima que debe guardarse respecto al vehículo que precede en condiciones normales?",
+    "opciones": [
+      "3 metros",
+      "5 metros",
+      "10 metros",
+      "25 metros"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 61 del Reglamento establece una distancia mínima de 10 metros del vehículo que antecede en circulación regular."
+  },
+  {
+    "id": 30,
+    "categoria": "Distancia de Seguridad",
+    "pregunta": "En caso de lluvia intensa, niebla o presencia de grava suelta en el camino, ¿cómo debe ajustarse la distancia de seguridad entre vehículos?",
+    "opciones": [
+      "Debe mantenerse igual",
+      "Debe duplicarse (al menos 20 metros)",
+      "Debe reducirse a la mitad",
+      "Debe aumentarse a 100 metros obligatoriamente"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 61 del Reglamento señala que con lluvia, niebla o grava suelta la distancia de seguridad debe ser el doble."
+  },
+  {
+    "id": 31,
+    "categoria": "Rebase",
+    "pregunta": "¿Por qué lado debe realizarse la maniobra de rebase o adelantamiento a otro vehículo en condiciones ordinarias?",
+    "opciones": [
+      "Indistintamente por derecha o izquierda",
+      "Siempre por el acotamiento",
+      "Siempre por el lado izquierdo",
+      "Por la derecha si la calle es amplia"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 57, fracción II del Reglamento de Tránsito determina que el rebase debe realizarse siempre por la izquierda y prohíbe usar el acotamiento."
+  },
+  {
+    "id": 32,
+    "categoria": "Rebase",
+    "pregunta": "¿En qué caso excepcional se permite rebasar a un vehículo por el lado derecho?",
+    "opciones": [
+      "Cuando haya prisa justificada",
+      "Cuando el vehículo al que se pretende rebasar esté a punto de dar vuelta a la izquierda",
+      "En cualquier curva con buena visibilidad",
+      "En zonas escolares vacías"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 57, fracción II, inciso A) permite rebasar por la derecha cuando el automóvil antecedente va a girar a la izquierda."
+  },
+  {
+    "id": 33,
+    "categoria": "Rebase",
+    "pregunta": "¿Qué distancia mínima antes de una intersección o cruce de caminos se prohíbe iniciar el rebase de otro vehículo?",
+    "opciones": [
+      "20 metros",
+      "50 metros",
+      "100 metros",
+      "200 metros"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 62 del Reglamento prohíbe rebasar a otro vehículo si la maniobra no se inicia con al menos 100 metros de distancia antes de la intersección."
+  },
+  {
+    "id": 34,
+    "categoria": "Prohibiciones de Rebase",
+    "pregunta": "¿Cuál de las siguientes maniobras de adelantamiento está expresamente prohibida por el Reglamento?",
+    "opciones": [
+      "Rebasar en una recta con línea discontinua",
+      "Rebasar a otro vehículo que ya marcha a la velocidad máxima permitida en la vía",
+      "Rebasar utilizando luces direccionales",
+      "Rebasar por la izquierda guardando distancia segura"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 101 del Reglamento prohíbe rebasar a otro vehículo que ya circula a la velocidad máxima permitida, así como en curvas, cruceros o pasos peatonales."
+  },
+  {
+    "id": 35,
+    "categoria": "Maniobras",
+    "pregunta": "¿Cuál es la distancia máxima permitida para maniobrar un vehículo en reversa en las vías de Morelos?",
+    "opciones": [
+      "10 metros",
+      "20 metros",
+      "35 metros",
+      "50 metros"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 70 del Reglamento dispone no exceder un tramo de 20 metros en reversa, además de prohibirlo en vías rápidas o intersecciones."
+  },
+  {
+    "id": 36,
+    "categoria": "Estacionamiento",
+    "pregunta": "¿A qué distancia mínima de una esquina está prohibido estacionar un vehículo?",
+    "opciones": [
+      "Menos de 3 metros",
+      "Menos de 5 metros",
+      "Menos de 10 metros",
+      "Menos de 15 metros"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 142, fracción I del Reglamento de Tránsito prohíbe estacionar a menos de 10 metros de las esquinas."
+  },
+  {
+    "id": 37,
+    "categoria": "Estacionamiento",
+    "pregunta": "¿Cuál es la distancia mínima que se debe respetar respecto a un hidrante (toma de agua contra incendios) al estacionarse?",
+    "opciones": [
+      "2 metros",
+      "3 metros",
+      "5 metros",
+      "10 metros"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 142, fracción III del Reglamento prohíbe estacionarse a menos de 3 metros de hidrantes o áreas de bomberos."
+  },
+  {
+    "id": 38,
+    "categoria": "Estacionamiento",
+    "pregunta": "¿A qué distancia mínima del riel más cercano de un cruce ferroviario se prohíbe el estacionamiento vehicular?",
+    "opciones": [
+      "5 metros",
+      "10 metros",
+      "15 metros",
+      "30 metros"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 142, fracción IX del Reglamento de Tránsito prohíbe estacionar a menos de 15 metros del riel más próximo."
+  },
+  {
+    "id": 39,
+    "categoria": "Estacionamiento",
+    "pregunta": "¿A qué distancia mínima debe colocarse el señalamiento de advertencia cuando un auto queda varado en una vía pública fuera de una población?",
+    "opciones": [
+      "A 10 metros",
+      "A 30 metros",
+      "Aproximadamente a 60 metros atrás y adelante",
+      "A 150 metros con banderas rojas"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 147, fracción I del Reglamento estipula colocar señales de advertencia a unos 60 metros atrás y adelante del vehículo descompuesto."
+  },
+  {
+    "id": 40,
+    "categoria": "Estacionamiento",
+    "pregunta": "Al estacionar un automóvil en una pendiente descendente, ¿hacia dónde deben apuntar las ruedas delanteras?",
+    "opciones": [
+      "Totalmente rectas",
+      "Dirigidas hacia la guarnición (banqueta) de la vía",
+      "Hacia el centro de la calle",
+      "En sentido opuesto a la inclinación"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 141, fracción IV del Reglamento de Tránsito exige que en pendientes las ruedas de la dirección se orienten hacia la guarnición."
+  },
+  {
+    "id": 41,
+    "categoria": "Abandono de Vehículo",
+    "pregunta": "¿A partir de cuántas horas continuas se considera que un vehículo está abandonado en la vía pública y puede ser remolcado al corralón?",
+    "opciones": [
+      "12 horas",
+      "24 horas",
+      "48 horas",
+      "72 horas"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 59 del Reglamento de Tránsito señala que los vehículos abandonados por más de 24 horas serán remitidos al depósito oficial."
+  },
+  {
+    "id": 42,
+    "categoria": "Accidentes Viales",
+    "pregunta": "En caso de un siniestro vial donde no haya lesionados y solo existan daños a bienes de propiedad privada, ¿qué permite el Reglamento?",
+    "opciones": [
+      "Abandonar la escena de inmediato si se cuenta con seguro",
+      "Llegar a un acuerdo mutuo sobre la reparación del daño sin intervención de autoridades",
+      "Detener obligatoriamente a ambos conductores en barandilla",
+      "Exigir el pago en efectivo de inmediato al primer respondiente"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 155, fracción I del Reglamento contempla que si solo hay daños a propiedad privada las partes pueden acordar la reparación sin necesidad de recurrir a la autoridad."
+  },
+  {
+    "id": 43,
+    "categoria": "Accidentes Viales",
+    "pregunta": "Cuando en un hecho de tránsito resultan personas fallecidas, ¿qué deben hacer los conductores implicados según el Reglamento?",
+    "opciones": [
+      "Llevar los cuerpos de inmediato al hospital más cercano",
+      "Mover los cuerpos a la banqueta para liberar el tránsito vehicular",
+      "No mover los cuerpos bajo ninguna circunstancia hasta que la autoridad competente lo disponga",
+      "Cubrir los cuerpos con mantas y retirarse"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 154, fracción III del Reglamento prohíbe tajantemente mover los cuerpos de personas fallecidas hasta la orden de la autoridad facultada."
+  },
+  {
+    "id": 44,
+    "categoria": "Vía Férrea",
+    "pregunta": "¿A qué distancia mínima antes de una vía férrea debe hacer alto total todo conductor para verificar que no se aproxima el tren?",
+    "opciones": [
+      "2 metros",
+      "5 metros",
+      "10 metros",
+      "15 metros"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 57, fracción XI del Reglamento de Tránsito estipula hacer alto total a una distancia mínima de 5 metros de una vía férrea."
+  },
+  {
+    "id": 45,
+    "categoria": "Licencias",
+    "pregunta": "¿Qué tipo de licencia de conducir corresponde para vehículos de uso particular que no excedan 3.5 toneladas de peso bruto?",
+    "opciones": [
+      "Tipo A - Automovilista",
+      "Tipo B - Motociclista",
+      "Tipo C - Chofer",
+      "Tipo D - Transporte Público"
+    ],
+    "respuesta_correcta": 0,
+    "explicacion": "El Artículo 146, fracción I de la Ley de Movilidad clasifica a la Licencia Tipo A como Automovilista para particulares de hasta 3.5 toneladas."
+  },
+  {
+    "id": 46,
+    "categoria": "Licencias",
+    "pregunta": "¿Cuál es la vigencia de un permiso de conducir para menores de edad en el Estado de Morelos?",
+    "opciones": [
+      "6 meses",
+      "1 año (pudiendo tramitarse de nuevo mientras siga siendo menor)",
+      "Hasta los 21 años",
+      "Indefinida con firma del tutor"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 154 de la Ley de Movilidad señala que el permiso para menores de edad (16 a 18 años) tiene vigencia máxima de 1 año."
+  },
+  {
+    "id": 47,
+    "categoria": "Licencias",
+    "pregunta": "¿Qué causa la cancelación definitiva de un permiso provisional de conducir otorgado a un menor de edad?",
+    "opciones": [
+      "No renovar la verificación ambiental",
+      "Cometer una infracción en estado de ebriedad o bajo el influjo de estupefacientes",
+      "Conducir con lluvia",
+      "Estacionarse en doble fila una sola vez"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 47 del Reglamento de Tránsito ordena la cancelación si el menor comete infracciones en estado de ebriedad o bajo sustancias tóxicas."
+  },
+  {
+    "id": 48,
+    "categoria": "Seguro Obligatorio",
+    "pregunta": "¿Cuál es la consecuencia directa de circular un vehículo en Morelos sin póliza de responsabilidad civil vigente?",
+    "opciones": [
+      "Solo una amonestación verbal",
+      "Infracción grave y retiro de circulación del vehículo al depósito como medida de seguridad",
+      "Pérdida de la factura vehicular",
+      "Trabajo comunitario obligatorio de 6 meses"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "Los Artículos 189 fracción VII y 204 de la Ley catalogan la falta de seguro como infracción grave y causal de remisión al corralón."
+  },
+  {
+    "id": 49,
+    "categoria": "Distractores",
+    "pregunta": "¿Bajo qué condición está permitido el uso del teléfono celular mientras se conduce según la Ley de Movilidad?",
+    "opciones": [
+      "En semáforos en rojo",
+      "Únicamente utilizando un sistema de manos libres integrado o instalado fijo",
+      "Para enviar mensajes de audio cortos",
+      "En carreteras de baja velocidad"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 132 de la Ley prohíbe manipular dispositivos salvo que se use un sistema de manos libres fijo o instalado de fábrica."
+  },
+  {
+    "id": 50,
+    "categoria": "Aditamentos Prohibidos",
+    "pregunta": "¿Qué determina la Ley sobre el uso de accesorios frontales o traseros denominados 'tumbaburros' o 'mataburros' en autos particulares?",
+    "opciones": [
+      "Están autorizados con permiso notarial",
+      "Quedan terminantemente prohibidos porque agravan las lesiones a usuarios de la vía",
+      "Se permiten si son de plástico ligero",
+      "Solo se prohíben en motocicletas"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 143 de la Ley de Movilidad prohíbe los tumbaburros por incrementar la gravedad de lesiones en colisiones, salvo en unidades de emergencia autorizadas."
+  },
+  {
+    "id": 51,
+    "categoria": "Alumbrado",
+    "pregunta": "Según el Reglamento de Tránsito, ¿a qué distancia mínima aproximada debe proporcionar visibilidad la luz baja de los faros delanteros?",
+    "opciones": [
+      "15 metros",
+      "30 metros",
+      "50 metros",
+      "100 metros"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 103, fracción I, inciso D) del Reglamento de Tránsito fija la visibilidad de la luz baja en 30 metros (y 100 metros para la luz alta)."
+  },
+  {
+    "id": 52,
+    "categoria": "Alumbrado",
+    "pregunta": "¿De qué color deben ser los faros principales delanteros de un automóvil?",
+    "opciones": [
+      "Azul brillante o xenón libre",
+      "Amarillo ámbar únicamente",
+      "Luz blanca obligatoria y de las mismas dimensiones",
+      "Rojo o ámbar"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 103, fracción I, inciso A) del Reglamento establece que los dos faros delanteros deben emitir luz blanca y tener las mismas dimensiones."
+  },
+  {
+    "id": 53,
+    "categoria": "Alumbrado",
+    "pregunta": "¿Qué tipo de luces deben encenderse automáticamente en la parte trasera del automóvil al colocar la reversa?",
+    "opciones": [
+      "Luces rojas intermitentes",
+      "Dos lámparas indicadoras que emitan luz blanca",
+      "Faros de niebla amarillos",
+      "Ninguna, es opcional en autos ligeros"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 103, fracción IX del Reglamento exige dos lámparas traseras de luz blanca que se activen de forma automática con la reversa."
+  },
+  {
+    "id": 54,
+    "categoria": "Equipo Vehicular",
+    "pregunta": "¿Qué tipo de aditamento en los cristales y ventanillas de un vehículo está prohibido por el Reglamento?",
+    "opciones": [
+      "Cristales térmicos de fábrica",
+      "Oscurecimiento o rótulos/objetos que impidan la visibilidad hacia el interior y exterior",
+      "Deflectores de viento en las cuatro puertas",
+      "Película transparente de seguridad contra impactos"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 121 del Reglamento prohíbe objetos opacos, carteles y cristales pintados u oscurecidos que reduzcan o impidan la visibilidad."
+  },
+  {
+    "id": 55,
+    "categoria": "Placas",
+    "pregunta": "¿Cuál es la sanción y disposición sobre las placas de matriculación de un automóvil según el Reglamento?",
+    "opciones": [
+      "Llevar solo la trasera en la cajuela",
+      "Deben colocarse una adelante y otra atrás, visibles, sin dobleces, micas ni alteraciones que impidan su lectura",
+      "Se pueden sustituir por placas extranjeras decorativas",
+      "Pueden cubrirse con micas oscuras antirreflejo"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 36 del Reglamento exige colocar una placa delantera y otra trasera, visibles y sin objetos, micas o alteraciones."
+  },
+  {
+    "id": 56,
+    "categoria": "Placas",
+    "pregunta": "Según el Reglamento, ¿dónde debe colocarse obligatoriamente la calcomanía de matriculación en un vehículo que cuenta con cristal posterior?",
+    "opciones": [
+      "En la guantera junto a la póliza",
+      "En el medallón (cristal posterior) y a falta de éste en el parabrisas",
+      "En la placa de circulación delantera",
+      "En la ventanilla trasera izquierda"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 36 del Reglamento especifica adherir la calcomanía en el medallón (cristal posterior) o en el parabrisas a falta de este."
+  },
+  {
+    "id": 57,
+    "categoria": "Retención Vehicular",
+    "pregunta": "¿Cuál de las siguientes causas amerita el retiro de un vehículo y su remisión al depósito oficial (corralón)?",
+    "opciones": [
+      "Conducir con la música en volumen moderado",
+      "Falta de una sola placa o calcomanía únicamente",
+      "Carecer de ambas placas de matrícula o permiso vigente",
+      "No portar el recibo de compra del estéreo"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "Los Artículos 189 de la Ley y 257 del Reglamento establecen que la carencia de ambas placas amerita remitir el vehículo al depósito."
+  },
+  {
+    "id": 58,
+    "categoria": "Tránsito y Peatones",
+    "pregunta": "¿Cómo deben actuar los automovilistas ante peatones cruzando en una esquina sin semáforo?",
+    "opciones": [
+      "Tocar el claxon para acelerar el paso peatonal",
+      "Disminuir la velocidad y de ser preciso detener la marcha cediéndoles el paso",
+      "Pasar primero si el auto va a más de 30 km/h",
+      "Avanzar esquivando al peatón por el carril opuesto"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "Los Artículos 57 fracción V y 123 del Reglamento conceden preferencia a peatones y ordenan disminuir velocidad o frenar."
+  },
+  {
+    "id": 59,
+    "categoria": "Obligaciones del Peatón",
+    "pregunta": "¿Cuál de las siguientes es una obligación para los transeúntes al circular en la vía pública?",
+    "opciones": [
+      "Caminar por el arroyo vehicular si la banqueta está soleada",
+      "Cruzar avenidas por las esquinas o zonas peatonales marcadas",
+      "Cruzar las avenidas en diagonal para acortar tiempo",
+      "Invadir intempestivamente el arroyo para abordar transporte"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "Los Artículos 125 y 165 de la Ley y Reglamento señalan que los peatones deben cruzar por las esquinas y zonas peatonales autorizadas."
+  },
+  {
+    "id": 60,
+    "categoria": "Ciclistas",
+    "pregunta": "¿Qué derecho otorga la Ley a las personas ciclistas al circular por el arroyo vehicular ante la falta de ciclovía?",
+    "opciones": [
+      "Circular únicamente pegados a menos de 10 cm de la banqueta",
+      "Ocupar y utilizar un carril completo de circulación para su seguridad",
+      "Circular en sentido contrario para ver los autos de frente",
+      "Subirse a las banquetas obligatoriamente"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 162, fracción I de la Ley de Movilidad garantiza a ciclistas el derecho a transitar ocupando un carril completo de circulación."
+  },
+  {
+    "id": 61,
+    "categoria": "Ciclistas",
+    "pregunta": "¿Qué obligación tienen los conductores de autos frente a ciclistas que transitan en una vía pública?",
+    "opciones": [
+      "Hacerles señas de que deben usar la banqueta",
+      "Respetar su derecho al uso del carril y ceder el paso según la jerarquía vial",
+      "Rebasarlos pegándose a menos de 30 cm de su manubrio",
+      "Usar el claxon constantemente detrás de ellos"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 78 del Reglamento y el 162 de la Ley mandatan respetar el derecho de ciclistas a ocupar su carril de circulación."
+  },
+  {
+    "id": 62,
+    "categoria": "Micromovilidad",
+    "pregunta": "Según la Ley de Movilidad de Morelos, ¿qué velocidad máxima de diseño caracteriza a los vehículos eléctricos de micromovilidad (scooters/patinetas)?",
+    "opciones": [
+      "Hasta 15 km/h",
+      "Hasta 25 km/h",
+      "Hasta 45 km/h",
+      "Hasta 60 km/h"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 3, fracción XXIII de la Ley de Movilidad define la micromovilidad eléctrica con una velocidad máxima por diseño que no excede 25 km/h."
+  },
+  {
+    "id": 63,
+    "categoria": "Micromovilidad",
+    "pregunta": "¿Por qué áreas está prohibida la circulación de vehículos de micromovilidad como patinetas y bicicletas eléctricas?",
+    "opciones": [
+      "Por ciclovías y ciclocarriles",
+      "Por banquetas y carriles centrales de vías de acceso controlado",
+      "Por calles secundarias pavimentadas",
+      "Por calles terciarias en zonas habitacionales"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 116, fracción I de la Ley de Movilidad prohíbe expresamente su circulación por banquetas y carriles centrales de acceso controlado."
+  },
+  {
+    "id": 64,
+    "categoria": "Combustible",
+    "pregunta": "¿Qué prohíbe expresamente la normativa vehicular durante el abastecimiento de gasolina?",
+    "opciones": [
+      "Cargar combustible antes de las 8 de la mañana",
+      "Abastecer con el motor encendido, con fuego cerca o personas fumando",
+      "Pagar con tarjeta electrónica",
+      "Llenar el tanque al 100% de capacidad"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 57, fracción X del Reglamento prohíbe cargar gasolina con el motor en marcha, cerca de fuego o ante personas fumando."
+  },
+  {
+    "id": 65,
+    "categoria": "Ocupantes",
+    "pregunta": "¿Qué prohíbe el Reglamento respecto a personas que viajen en vehículos sedán particulares?",
+    "opciones": [
+      "Llevar pasajeros de la tercera edad",
+      "Transportar niños menores de 10 años en el asiento delantero",
+      "Llevar maletas en la cajuela",
+      "Usar aire acondicionado con ventanas cerradas"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 57, fracción VIII del Reglamento prohíbe que niños menores de diez años viajen en el asiento delantero en sedanes."
+  },
+  {
+    "id": 66,
+    "categoria": "Ocupantes",
+    "pregunta": "¿Dónde queda estrictamente prohibido transportar personas en cualquier vehículo automotor?",
+    "opciones": [
+      "En los asientos traseros con cinturón",
+      "En la parte exterior de la carrocería, salpicaderas o estribos",
+      "En el asiento del copiloto con cinturón de 3 puntos",
+      "En sillas de retención infantil"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 57, fracción VII del Reglamento prohíbe transportar pasajeros en la parte exterior de la carrocería o estribos."
+  },
+  {
+    "id": 67,
+    "categoria": "Dimensiones",
+    "pregunta": "Salvo casos de transporte articulado con permiso especial, ¿cuál es el ancho máximo permitido para un vehículo incluyendo su carga?",
+    "opciones": [
+      "2.20 metros",
+      "2.60 metros",
+      "3.00 metros",
+      "3.50 metros"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 66, fracción II del Reglamento de Tránsito estipula un ancho máximo vehicular de 2 metros con 60 centímetros."
+  },
+  {
+    "id": 68,
+    "categoria": "Dimensiones",
+    "pregunta": "¿Cuál es la altura máxima vehicular permitida en Morelos, incluida la carga transportada?",
+    "opciones": [
+      "3.50 metros",
+      "4.00 metros",
+      "4.50 metros",
+      "5.00 metros"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 66, fracción III del Reglamento fija la altura máxima en 4 metros incluida la carga del vehículo."
+  },
+  {
+    "id": 69,
+    "categoria": "Contaminación",
+    "pregunta": "¿Qué medidas de control ambiental y acústico deben respetar los conductores según el Reglamento de Tránsito?",
+    "opciones": [
+      "Está permitido usar bocinas de aire comprimido de día",
+      "Evitar emitir humo y ruido excesivo, y mantener silenciador en el tubo de escape",
+      "Tirar colillas por la ventana si no hay botes cerca",
+      "Pintar el escape de color fosforescente"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "Los Artículos 57 fracción XII y 119 fracción IV exigen evitar ruidos y humo excesivo y contar con silenciador funcional."
+  },
+  {
+    "id": 70,
+    "categoria": "Basura",
+    "pregunta": "Si un acompañante o pasajero arroja basura o desperdicios a la vía pública desde un vehículo, ¿sobre quién recae la infracción?",
+    "opciones": [
+      "Sobre el peatón más cercano",
+      "Exclusivamente sobre el fabricante del vehículo",
+      "Sobre la persona conductora del vehículo",
+      "No constituye infracción de tránsito"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 68 del Reglamento establece que de la basura arrojada desde el auto serán legalmente responsables los conductores."
+  },
+  {
+    "id": 71,
+    "categoria": "Direccionales",
+    "pregunta": "Si las luces direccionales de un automóvil fallan, ¿cómo debe señalizar el conductor con el brazo su intención de virar a la DERECHA?",
+    "opciones": [
+      "Sacar el brazo izquierdo de forma horizontal",
+      "Sacar el brazo izquierdo hacia arriba",
+      "Bajar el brazo izquierdo apuntando al piso",
+      "Mover la mano derecha dentro del vehículo"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 65 del Reglamento estipula que la señal manual a la derecha se hace sacando el brazo izquierdo hacia arriba."
+  },
+  {
+    "id": 72,
+    "categoria": "Direccionales",
+    "pregunta": "¿Cómo debe indicar manualmente un conductor la maniobra de vuelta o cambio de carril hacia la IZQUIERDA?",
+    "opciones": [
+      "Sacando el brazo izquierdo horizontalmente hacia afuera",
+      "Colocando el brazo en ángulo hacia abajo",
+      "Levantando el brazo derecho por el quemacocos",
+      "Tocando dos toques de claxon"
+    ],
+    "respuesta_correcta": 0,
+    "explicacion": "El Artículo 65 del Reglamento indica que para virar a la izquierda el conductor extenderá el brazo izquierdo horizontalmente."
+  },
+  {
+    "id": 73,
+    "categoria": "Vuelta en U",
+    "pregunta": "¿Cuándo está permitido realizar una maniobra de vuelta en 'U' para colocarse en sentido opuesto?",
+    "opciones": [
+      "En cualquier túnel o puente",
+      "En pasos a desnivel de alta velocidad",
+      "En lugares donde no esté expresamente prohibido por señalamiento y no se entorpezca el flujo vial",
+      "En curvas pronunciadas con neblina"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 87 del Reglamento autoriza la vuelta en 'U' siempre que no sea en lugares prohibidos expresamente."
+  },
+  {
+    "id": 74,
+    "categoria": "Vuelta a la Derecha",
+    "pregunta": "En un crucero semaforizado con luz roja, ¿cuál es la disposición respecto a la vuelta a la derecha?",
+    "opciones": [
+      "Está prohibida en cualquier circunstancia",
+      "Se puede virar a la derecha con precaución, bajo responsabilidad del conductor si no vienen vehículos ni peatones",
+      "Se debe tocar el claxon y acelerar rápido",
+      "Solo está permitida para autobuses y taxis"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "Los Artículos 85 y 86 del Reglamento autorizan la vuelta a la derecha continua con extrema precaución verificando vía libre."
+  },
+  {
+    "id": 75,
+    "categoria": "Cambio de Domicilio",
+    "pregunta": "¿Qué plazo tienen los propietarios de vehículos registrados para notificar su cambio de domicilio a la autoridad de tránsito?",
+    "opciones": [
+      "5 días hábiles",
+      "15 días naturales",
+      "No mayor a treinta días naturales",
+      "Hasta el siguiente refrendo anual"
+    ],
+    "respuesta_correcta": 2,
+    "explicacion": "El Artículo 31 del Reglamento de Tránsito fija un plazo no mayor a 30 días naturales para avisar cambios de domicilio o situación jurídica del auto."
+  },
+  {
+    "id": 76,
+    "categoria": "Cambio de Motor",
+    "pregunta": "Al realizar un cambio de carrocería o de motor en un vehículo, ¿en qué plazo debe informarse a la autoridad vial?",
+    "opciones": [
+      "10 días hábiles",
+      "30 días naturales",
+      "60 días naturales",
+      "No es necesario si se cuenta con factura"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 33 del Reglamento obliga al propietario a notificar a la autoridad vial el cambio de motor o carrocería en un plazo de 30 días naturales."
+  },
+  {
+    "id": 77,
+    "categoria": "Visión Cero",
+    "pregunta": "¿Cuál es el postulado ético central de la estrategia 'Visión Cero' adoptada en la Ley de Movilidad de Morelos?",
+    "opciones": [
+      "Cero autos en el centro histórico",
+      "Toda muerte o lesión grave por siniestros de tránsito es prevenible y ninguna muerte es aceptable",
+      "Reducir las multas a cero en el primer año",
+      "Cero inspecciones físico-mecánicas para vehículos nuevos"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "Los Artículos 26 y 27 fracción XVIII de la Ley adoptan el principio de Visión Cero: ninguna muerte o lesión vial es aceptable y todas son prevenibles."
+  },
+  {
+    "id": 78,
+    "categoria": "Diseño Vial",
+    "pregunta": "¿En qué consiste el principio urbanístico de 'Calle Completa' establecido en la Ley de Morelos?",
+    "opciones": [
+      "Calles con 6 carriles exclusivos para automóviles",
+      "Redistribución del espacio vial para dar cabida segura y eficiente a todos los modos de transporte (peatón, ciclista, transporte colectivo y autos)",
+      "Vías pavimentadas únicamente con concreto hidráulico",
+      "Calles sin semáforos ni topes"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 118 de la Ley de Movilidad define la Calle Completa como la redistribución vial para alojar de forma segura a todos los modos de movilidad."
+  },
+  {
+    "id": 79,
+    "categoria": "Infraestructura Peatonal",
+    "pregunta": "¿Qué establece la Ley de Movilidad respecto a la construcción de puentes peatonales elevados?",
+    "opciones": [
+      "Obliga a construir un puente en cada esquina",
+      "Desincentivar su construcción y sustituirlos por cruces peatonales seguros a nivel de calle con accesibilidad universal",
+      "Hacerlos con escaleras más empinadas para que no ocupen banqueta",
+      "Construirlos exclusivamente en zonas escolares"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "Los Artículos 119 fracción II y 120 de la Ley mandatan desincentivar puentes peatonales y priorizar cruces a nivel de banqueta con diseño universal."
+  },
+  {
+    "id": 80,
+    "categoria": "Sistema de Puntos",
+    "pregunta": "¿Cómo opera el Sistema de Puntos para las licencias de conducir en Morelos?",
+    "opciones": [
+      "Se otorgan puntos para canjear por gasolina",
+      "Se asigna un saldo inicial que disminuye al cometer infracciones, y su pérdida total causa suspensión o cancelación",
+      "Solo acumulan puntos los choferes de taxis",
+      "No existe en la legislación estatal"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "Los Artículos 155 a 157 de la Ley crean el saldo de puntos inicial, su deducción ante infracciones y la cancelación por agotamiento de saldo."
+  },
+  {
+    "id": 81,
+    "categoria": "Infracciones Muy Graves",
+    "pregunta": "De acuerdo con la Ley, ¿cuál de las siguientes conductas califica como infracción MUY GRAVE?",
+    "opciones": [
+      "Conducir con las luces bajas de día",
+      "Exceder en más de 20 km/h los límites de velocidad establecidos",
+      "Llevar el claxon con sonido bajo",
+      "No portar perfume en el habitáculo"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 195, fracción II de la Ley califica expresamente como infracción muy grave exceder en más de 20 km/h la velocidad autorizada."
+  },
+  {
+    "id": 82,
+    "categoria": "Infracciones Muy Graves",
+    "pregunta": "¿Qué sanción merece no respetar la luz roja del semáforo o la señal restrictiva de alto?",
+    "opciones": [
+      "Infracción muy grave sancionada con las multas más altas y reducción de puntos de la licencia",
+      "Solo una recomendación oral",
+      "Arresto domiciliario de 30 días",
+      "Retiro permanente de la factura del vehículo"
+    ],
+    "respuesta_correcta": 0,
+    "explicacion": "El Artículo 195, fracción IV de la Ley cataloga pasarse el semáforo en rojo o señal de alto como infracción muy grave con retiro de puntos."
+  },
+  {
+    "id": 83,
+    "categoria": "Equipo de Emergencia",
+    "pregunta": "¿Qué equipo preventivo y de emergencia deben portar los automóviles de 4 ruedas según el Reglamento?",
+    "opciones": [
+      "Una cobija y agua embotellada",
+      "Llanta de refacción, herramienta para instalarla, banderolas y linternas rojas",
+      "Un radio de frecuencia corta",
+      "Bolsa de dormir y señuelos"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 119 fracciones VIII y X del Reglamento de Tránsito exige refacción, herramienta, banderolas y linternas rojas de emergencia."
+  },
+  {
+    "id": 84,
+    "categoria": "Zonas Escolares",
+    "pregunta": "Frente a un transporte escolar detenido en la vía pública para subir o bajar estudiantes, ¿qué debe hacer el conductor?",
+    "opciones": [
+      "Rebasarlo velozmente tocando el claxon",
+      "Extremar precauciones y disminuir la velocidad",
+      "Detenerse y apagar el vehículo durante 1 hora",
+      "Pedir a los escolares que se apuren"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 102 del Reglamento de Tránsito ordena extremar precauciones ante transportes escolares en ascenso o descenso de alumnos."
+  },
+  {
+    "id": 85,
+    "categoria": "Luces de Emergencia",
+    "pregunta": "¿Cuándo deben utilizarse las luces intermitentes en un automóvil de acuerdo con la norma vial?",
+    "opciones": [
+      "Para circular a alta velocidad por el carril izquierdo",
+      "Al efectuar paradas momentáneas o estacionamientos de emergencia",
+      "En todo momento al entrar a una curva",
+      "Para indicar que se tiene prisa en un semáforo"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 90 del Reglamento de Tránsito obliga al uso de luces direccionales o intermitentes en detenciones momentáneas o emergencias."
+  },
+  {
+    "id": 86,
+    "categoria": "Supervisión Vial",
+    "pregunta": "¿Qué equipo portátil audiovisual tienen la obligación de activar los agentes de supervisión al interactuar con conductores?",
+    "opciones": [
+      "Su celular particular en altavoz",
+      "Cámaras corporales de grabación de audio y video para garantizar transparencia y legalidad",
+      "Una grabadora de casete analógica",
+      "No tienen permitido grabar bajo ningún concepto"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "Los Artículos 205 y 207 de la Ley de Movilidad regulan el uso obligatorio de cámaras corporales portátiles en las interacciones ciudadanas."
+  },
+  {
+    "id": 87,
+    "categoria": "Medios de Defensa",
+    "pregunta": "¿Qué recurso legal administrativo pueden interponer las personas afectadas por una infracción o resolución de tránsito?",
+    "opciones": [
+      "Recurso de queja únicamente ante el Cabildo",
+      "Recurso de revisión por escrito dentro de los quince días hábiles siguientes",
+      "Denuncia mercantil ante juzgados civiles",
+      "Juicio de quiebra ante el tribunal de justicia"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "Los Artículos 212 y 213 de la Ley de Movilidad prevén el recurso de revisión ante la propia autoridad dentro de los 15 días hábiles."
+  },
+  {
+    "id": 88,
+    "categoria": "Recurso de Revisión",
+    "pregunta": "¿En qué plazo debe resolver la autoridad de movilidad el recurso de revisión presentado por un particular?",
+    "opciones": [
+      "En 5 días naturales",
+      "En un plazo no mayor a treinta días hábiles contados a partir de su interposición",
+      "En 6 meses obligatorios",
+      "En 1 año fiscal"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 215 de la Ley de Movilidad señala que la autoridad dictará resolución al recurso de revisión en un máximo de 30 días hábiles."
+  },
+  {
+    "id": 89,
+    "categoria": "Destino de Multas",
+    "pregunta": "¿A qué se destinan los recursos recaudados por multas de tránsito estatales según la Ley de Movilidad?",
+    "opciones": [
+      "A gastos de representación de los directores",
+      "Al Fondo Estatal de Movilidad y Seguridad Vial para mejoras de infraestructura peatonal, ciclista y educación vial",
+      "A la compra exclusiva de vehículos particulares oficiales",
+      "A eventos sociales del gobierno"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "Los Artículos 59 y 201 de la Ley asignan las multas al Fondo Estatal de Movilidad para infraestructura peatonal, ciclista y seguridad vial."
+  },
+  {
+    "id": 90,
+    "categoria": "Examen de Conducir",
+    "pregunta": "Para obtener la licencia por primera vez, ¿qué módulo obligatorio debe incluir la evaluación teórica?",
+    "opciones": [
+      "Manejo en autódromos deportivos",
+      "Vulnerabilidad de peatones y ciclistas según la jerarquía vial",
+      "Reparación avanzada de cajas automáticas",
+      "Historia del transporte de carga"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 149 de la Ley exige que la evaluación teórica contenga un módulo sobre vulnerabilidad de peatones y ciclistas y la pirámide de movilidad."
+  },
+  {
+    "id": 91,
+    "categoria": "Examen de Conducir",
+    "pregunta": "¿Qué tipo de evaluaciones integran el examen para obtener la licencia Tipo A de Automovilista?",
+    "opciones": [
+      "Solo una carta de recomendación vecinal",
+      "Evaluación teórica, evaluación psicofísica y evaluación de pericia y habilidades prácticas",
+      "Únicamente pagar los derechos hacendarios",
+      "Una prueba escrita de conocimientos de geografía nacional"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 148, fracción II de la Ley de Movilidad prescribe una evaluación integral que consta de examen teórico, práctico y psicofísico."
+  },
+  {
+    "id": 92,
+    "categoria": "Inspección Físico-Mecánica",
+    "pregunta": "¿Cuál es la frecuencia ordinaria de revisión físico-mecánica requerida para los vehículos sujetos a registro y control?",
+    "opciones": [
+      "Cada seis meses",
+      "Revisión anual obligatoria",
+      "Cada 3 años",
+      "Solo al salir del estado de Morelos"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 139 de la Ley y el 221 del Reglamento estipulan la revisión anual de las condiciones físico-mecánicas de las unidades."
+  },
+  {
+    "id": 93,
+    "categoria": "Conducción",
+    "pregunta": "¿Cómo debe colocarse el conductor frente al volante al guiar un vehículo automotor?",
+    "opciones": [
+      "Sujetando el control de dirección con ambas manos y libre de objetos o personas en brazos",
+      "Con una mano en el teléfono y otra en el volante",
+      "Recostado hacia la derecha",
+      "Llevando a un menor de edad entre el volante y el pecho"
+    ],
+    "respuesta_correcta": 0,
+    "explicacion": "El Artículo 67 del Reglamento de Tránsito obliga a sujetar con ambas manos el volante y abstenerse de llevar bultos o personas entre los brazos."
+  },
+  {
+    "id": 94,
+    "categoria": "Luces en Niebla",
+    "pregunta": "Al conducir de noche o ante niebla espesa, ¿qué alumbrado vehicular se debe evitar para no deslumbrar?",
+    "opciones": [
+      "Las luces bajas reglamentarias",
+      "Faros de alta intensidad que proyecten el haz luminoso a los ojos de otros conductores",
+      "Las luces intermitentes en paro",
+      "La luz de la placa trasera"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 89 del Reglamento prohíbe deslumbres y exige modular la intensidad de las luces frente a conductores que vienen de frente o detrás."
+  },
+  {
+    "id": 95,
+    "categoria": "Infracciones de Tránsito",
+    "pregunta": "Según el tabulador del Reglamento de Tránsito, ¿cuál de las siguientes infracciones conlleva una de las multas más elevadas (hasta 100 días/UMAs)?",
+    "opciones": [
+      "No portar el limpiaparabrisas trasero",
+      "Circular con placas pertenecientes a otro vehículo o alterar los documentos del automóvil",
+      "Estacionarse a 9 metros de una esquina",
+      "Tocar la bocina en una avenida"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 260 del Reglamento fija 100 días de sanción por circular con placas de otro vehículo o alterar documentos oficiales."
+  },
+  {
+    "id": 96,
+    "categoria": "Seguridad en Motocicletas",
+    "pregunta": "¿Qué exige la norma respecto al carril de circulación para las motocicletas?",
+    "opciones": [
+      "Circular siempre entre dos vehículos en marcha (filtrado continuo)",
+      "Utilizar un carril completo de circulación y mantener luces encendidas en todo momento",
+      "Avanzar sobre las banquetas si hay tráfico",
+      "Circular sobre la línea amarilla divisoria"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 137 de la Ley de Movilidad prohíbe circular entre carriles en movimiento y obliga al uso del carril completo con luces encendidas."
+  },
+  {
+    "id": 97,
+    "categoria": "Cocheras",
+    "pregunta": "Al cruzar una acera o banqueta para entrar o salir de una cochera o estacionamiento privado, ¿qué debe hacer el conductor?",
+    "opciones": [
+      "Acelerar con el claxon sostenido",
+      "Ceder el paso a personas peatonas y vehículos que circulen por la vía",
+      "Los peatones deben esperar siempre a que salga el automóvil",
+      "Colocar conos en la banqueta pública"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 84 del Reglamento de Tránsito obliga al conductor a ceder el paso a peatones y vehículos al cruzar la acera para entrar o salir de cocheras."
+  },
+  {
+    "id": 98,
+    "categoria": "Carriles de Contraflujo",
+    "pregunta": "¿Cuál es la sanción por invadir y circular en sentido contrario o en carriles exclusivos de transporte público / contraflujo?",
+    "opciones": [
+      "Amonestación verbal",
+      "Infracción muy grave catalogada en la Ley con sanción pecuniaria alta y deducción de puntos",
+      "Pena de cárcel obligatoria de 10 años",
+      "Suspensión voluntaria de placas"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 195, fracción V de la Ley califica la invasión de carriles exclusivos y de contraflujo como infracción muy grave."
+  },
+  {
+    "id": 99,
+    "categoria": "Estacionamiento Reservado",
+    "pregunta": "¿Qué consecuencia acarrea estacionar un automóvil particular en un espacio reservado para personas con discapacidad o rampa de acceso?",
+    "opciones": [
+      "Solo una felicitación si fue menos de 5 minutos",
+      "Infracción vial y retiro inmediato del vehículo mediante grúa al corralón",
+      "Pintar la guarnición de blanco",
+      "Reducción voluntaria del impuesto predial"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "El Artículo 189, fracción VI de la Ley faculta el retiro y remisión del auto al depósito por obstruir rampas o cajones para personas con discapacidad."
+  },
+  {
+    "id": 100,
+    "categoria": "Autoridad Competente",
+    "pregunta": "¿Cuál es el organismo especializado facultado para expedir, suspender o cancelar licencias de conducir en Morelos?",
+    "opciones": [
+      "Los 36 Ayuntamientos municipales de manera individual",
+      "La Coordinación General de Movilidad y Transporte del Estado de Morelos",
+      "La Secretaría de Salud Pública Estatal",
+      "El Tribunal Superior de Justicia"
+    ],
+    "respuesta_correcta": 1,
+    "explicacion": "Los Artículos 15 fracción V y 145 de la Ley de Movilidad señalan que la Coordinación General es la autoridad facultada para expedir o revocar licencias en el estado."
+  }
+]
